@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1280.0, 44.0, 1599.0, 1110.0 ],
+		"rect" : [ 546.0, 147.0, 697.0, 642.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,9 +37,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -0.5, 2.0, 150.0, 20.0 ],
+					"patching_rect" : [ -0.5, 0.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.5, 2.0, 150.0, 20.0 ]
+					"presentation_rect" : [ -0.5, 0.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -302,7 +302,7 @@
 			}
 , 			{
 				"box" : 				{
-					"hint" : "x 4 y 0",
+					"hint" : "x 4 y 11",
 					"id" : "obj-40",
 					"maxclass" : "itable",
 					"name" : "",
@@ -313,7 +313,7 @@
 					"patching_rect" : [ 374.0, 152.0, 81.0, 74.0 ],
 					"range" : 12,
 					"size" : 5,
-					"table_data" : [ 0, 0, 4, 8, 9, 5 ]
+					"table_data" : [ 0, 0, 3, 5, 7, 10 ]
 				}
 
 			}
