@@ -31,23 +31,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-<<<<<<< HEAD
 					"id" : "obj-169",
 					"linecount" : 5,
-=======
-					"id" : "obj-111",
->>>>>>> YingShu
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-<<<<<<< HEAD
 					"patching_rect" : [ 1133.0, 383.75, 50.0, 72.0 ],
 					"text" : "erase_color 0.348627 0. 0. 1."
-=======
-					"patching_rect" : [ 304.25, 1279.5, 32.5, 18.0 ],
-					"text" : "4"
->>>>>>> YingShu
 				}
 
 			}
@@ -55,22 +46,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-<<<<<<< HEAD
 					"id" : "obj-166",
-=======
-					"id" : "obj-104",
->>>>>>> YingShu
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-<<<<<<< HEAD
 					"patching_rect" : [ 375.0, 157.5, 97.0, 18.0 ],
 					"text" : "gravity 0. -9.8 0."
-=======
-					"patching_rect" : [ 271.75, 1279.5, 32.5, 18.0 ],
-					"text" : "3"
->>>>>>> YingShu
 				}
 
 			}
@@ -78,7 +60,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-<<<<<<< HEAD
 					"id" : "obj-158",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -142,15 +123,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 496.0, 407.0, 53.0, 20.0 ],
 					"text" : "r gravity"
-=======
-					"id" : "obj-98",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.0, 1279.5, 32.5, 18.0 ],
-					"text" : "2"
->>>>>>> YingShu
 				}
 
 			}
@@ -158,7 +130,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-<<<<<<< HEAD
 					"id" : "obj-150",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -300,15 +271,6 @@
 					"outlettype" : [ "int", "int", "int", "int" ],
 					"patching_rect" : [ 1385.25, 254.0, 59.5, 20.0 ],
 					"text" : "key"
-=======
-					"id" : "obj-35",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.5, 1279.5, 32.5, 18.0 ],
-					"text" : "1"
->>>>>>> YingShu
 				}
 
 			}
@@ -590,7 +552,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-108",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -637,13 +598,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-<<<<<<< HEAD
 					"patching_rect" : [ 3.927444, -4.700001, 121.0, 18.0 ],
 					"presentation_rect" : [ 3.927444, -4.700001, 0.0, 0.0 ]
-=======
-					"patching_rect" : [ -5.361977, 0.788745, 121.0, 18.0 ],
-					"presentation_rect" : [ -5.361977, 0.788745, 0.0, 0.0 ]
->>>>>>> YingShu
 				}
 
 			}
@@ -731,7 +687,7 @@
 					"id" : "obj-58",
 					"maxclass" : "bpatcher",
 					"name" : "yingshu_patch.maxpat",
-					"numinlets" : 4,
+					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 119.0, 1321.0, 103.0, 21.0 ]
@@ -748,7 +704,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 201.619995, 1216.0, 74.5, 18.0 ],
-					"text" : "0.011719"
+					"text" : "0."
 				}
 
 			}
@@ -802,11 +758,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 122.130005, 167.0, 50.0, 31.0 ],
-<<<<<<< HEAD
 					"text" : "0.510058"
-=======
-					"text" : "-0.504128"
->>>>>>> YingShu
 				}
 
 			}
@@ -849,11 +801,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 854.75, 648.0, 186.5, 18.0 ],
-<<<<<<< HEAD
 					"text" : "3.927444 -4.7 0."
-=======
-					"text" : "-5.361977 0.788745 0."
->>>>>>> YingShu
 				}
 
 			}
@@ -1377,11 +1325,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1449.5, 557.25, 50.0, 18.0 ],
-<<<<<<< HEAD
 					"text" : "27"
-=======
-					"text" : "36"
->>>>>>> YingShu
 				}
 
 			}
@@ -1409,11 +1353,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1355.5, 557.25, 50.0, 18.0 ],
-<<<<<<< HEAD
 					"text" : "26"
-=======
-					"text" : "9"
->>>>>>> YingShu
 				}
 
 			}
@@ -1501,11 +1441,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1326.75, 905.0, 53.0, 31.0 ],
-<<<<<<< HEAD
 					"text" : "impulse 26 27 0"
-=======
-					"text" : "impulse 9 36 0"
->>>>>>> YingShu
 				}
 
 			}
@@ -2057,15 +1993,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-58", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-104", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2085,17 +2012,10 @@
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-118", 0 ]
-=======
-					"destination" : [ "obj-58", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-111", 0 ]
->>>>>>> YingShu
 				}
 
 			}
@@ -2430,11 +2350,7 @@
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD
 					"destination" : [ "obj-96", 0 ],
-=======
-					"destination" : [ "obj-58", 3 ],
->>>>>>> YingShu
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
@@ -2565,11 +2481,7 @@
 					"destination" : [ "obj-85", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-<<<<<<< HEAD
 					"midpoints" : [ 434.5, 948.0, 3.0, 948.0, 3.0, -3.0, 13.427444, -3.0 ],
-=======
-					"midpoints" : [ 434.5, 948.0, 3.0, 948.0, 3.0, -3.0, 4.138023, -3.0 ],
->>>>>>> YingShu
 					"source" : [ "obj-46", 1 ]
 				}
 
@@ -3210,17 +3122,10 @@
 			}
 , 			{
 				"patchline" : 				{
-<<<<<<< HEAD
 					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-96", 0 ]
-=======
-					"destination" : [ "obj-58", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-98", 0 ]
->>>>>>> YingShu
 				}
 
 			}
@@ -3231,69 +3136,40 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "collisionRecogObject.maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
+				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deltaObject.maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
+				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yingshu_patch.maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
+				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sound_duplicate.maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "delayline~.maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rev3~.maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "loadsound.maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sfolder.maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
+				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "excitation .maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
+				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-<<<<<<< HEAD
 				"name" : "cursorPositionHoldObj.maxpat",
 				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
 				"patcherrelativepath" : ".",
@@ -3313,10 +3189,6 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
-=======
-				"name" : "shifter~.mxo",
-				"type" : "iLaX"
->>>>>>> YingShu
 			}
 , 			{
 				"name" : "OSC-route.mxo",
