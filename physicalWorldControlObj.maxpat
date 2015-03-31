@@ -63,8 +63,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.0, 433.0, 159.0, 20.0 ],
-					"text" : "if $f1 > 0.25 then 1. else 0.2"
+					"patching_rect" : [ 125.0, 433.0, 152.0, 20.0 ],
+					"text" : "if $f1 > 0.2 then 1. else 0.2"
 				}
 
 			}
@@ -1782,7 +1782,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "movingAvgObj.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
