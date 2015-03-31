@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1246.0, 705.0 ],
+		"rect" : [ 0.0, 44.0, 1436.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-164",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 59.0, 1269.0, 34.0, 20.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -356,7 +369,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 848.0, 272.0, 50.0, 18.0 ],
-					"text" : "0."
+					"text" : "0.08"
 				}
 
 			}
@@ -370,7 +383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 880.0, 451.5, 149.0, 18.0 ],
-					"text" : "gravity 13.950588 0. 0."
+					"text" : "gravity 0. -13.066667 0."
 				}
 
 			}
@@ -399,7 +412,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1023.75, 184.5, 50.0, 18.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -414,7 +427,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 939.75, 184.5, 50.0, 31.0 ],
-					"text" : "0.409623"
+					"text" : "0.412268"
 				}
 
 			}
@@ -428,7 +441,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 786.75, 184.5, 50.0, 18.0 ],
-					"text" : "2"
+					"text" : "3"
 				}
 
 			}
@@ -462,13 +475,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-169",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1133.0, 383.75, 52.0, 72.0 ],
-					"text" : "erase_color 0.304706 0. 0. 1."
+					"patching_rect" : [ 1133.0, 383.75, 52.0, 58.0 ],
+					"text" : "erase_color 0.282745 0. 0. 1."
 				}
 
 			}
@@ -969,6 +982,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-108",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -1107,7 +1121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 201.619995, 1216.0, 74.5, 18.0 ],
-					"text" : "0."
+					"text" : "0.010742"
 				}
 
 			}
@@ -1159,7 +1173,7 @@
 					"patching_rect" : [ 143.869995, 1216.0, 64.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.130005, 167.0, 64.0, 18.0 ],
-					"text" : "1."
+					"text" : "0.11629"
 				}
 
 			}
@@ -1175,7 +1189,7 @@
 					"patching_rect" : [ 92.0, 1198.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.130005, 167.0, 50.0, 18.0 ],
-					"text" : "wall 4"
+					"text" : "wall 3"
 				}
 
 			}
@@ -1202,7 +1216,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 854.75, 648.0, 186.5, 18.0 ],
-					"text" : "7.7 4.7 0."
+					"text" : "-0.153382 -4.073079 0."
 				}
 
 			}
@@ -1269,7 +1283,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 550.0, 922.5, 35.0, 35.0 ],
+					"patching_rect" : [ 550.0, 937.5, 35.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.745357, -4.700001, 79.0, 79.0 ]
 				}
@@ -1325,7 +1339,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1438.0, 1279.5, 92.0, 31.0 ],
-					"text" : "position 0.1 0 -1"
+					"text" : "position 0.1 -1 -1"
 				}
 
 			}
@@ -1727,7 +1741,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1449.5, 557.25, 50.0, 18.0 ],
-					"text" : "52"
+					"text" : "39"
 				}
 
 			}
@@ -1755,7 +1769,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1355.5, 557.25, 50.0, 18.0 ],
-					"text" : "31"
+					"text" : "5"
 				}
 
 			}
@@ -1843,7 +1857,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1326.75, 905.0, 53.0, 31.0 ],
-					"text" : "impulse 31 52 0"
+					"text" : "impulse 5 39 0"
 				}
 
 			}
@@ -3079,7 +3093,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 434.5, 939.0, 537.0, 939.0, 537.0, 729.0, 759.0, 729.0, 759.0, 609.0, 791.0, 609.0 ],
+					"midpoints" : [ 434.5, 939.0, 537.0, 939.0, 537.0, 729.0, 759.0, 729.0, 759.0, 579.0, 791.0, 579.0 ],
 					"source" : [ "obj-46", 1 ]
 				}
 
@@ -3238,6 +3252,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-164", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-59", 0 ]
 				}
 
 			}
@@ -3915,91 +3938,91 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "collisionRecogObject.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deltaObject.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yingshu_patch.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sound_duplicate.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delayline~.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rev3~.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loadsound.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sfolder.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "excitation .maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cursorPositionHoldObj.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "physicalWorldControlObj.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "movingAvgObj.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SoundAnaly.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
