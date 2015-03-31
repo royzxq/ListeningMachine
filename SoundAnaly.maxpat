@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1280.0, 44.0, 1920.0, 1110.0 ],
+		"rect" : [ 0.0, 45.0, 1280.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -93,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.338013, 647.35199, 50.0, 18.0 ],
-					"text" : "2"
+					"text" : "1"
 				}
 
 			}
@@ -134,8 +134,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 857.0, 604.414978, 105.0, 20.0 ],
-					"text" : "scale 0. 25. 0.2 1."
+					"patching_rect" : [ 857.0, 559.414978, 99.0, 20.0 ],
+					"text" : "scale 0. 25. 0. 1."
 				}
 
 			}
@@ -377,7 +377,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 857.0, 577.35199, 50.0, 20.0 ]
+					"patching_rect" : [ 857.0, 532.35199, 50.0, 20.0 ]
 				}
 
 			}
@@ -390,7 +390,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 857.0, 550.0, 71.0, 20.0 ],
+					"patching_rect" : [ 857.0, 505.0, 71.0, 20.0 ],
 					"text" : "deltaObject"
 				}
 
@@ -970,8 +970,8 @@
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 9,
-					"outlettype" : [ "list", "float", "float", "float", "list", "bang", "list", "list", "FullPacket" ],
+					"numoutlets" : 7,
+					"outlettype" : [ "list", "float", "float", "float", "list", "bang", "list" ],
 					"patching_rect" : [ 1084.75, 530.0, 391.5, 27.0 ],
 					"text" : "analyzer~ @buffersize 2048 @hopsize 512 @fftsize 4096 @windowtype blackman70 @initialdelay 0 @numpitches 1 @numpeakstofind 10 @numpeakstooutput 10 @barkformat list"
 				}
@@ -3204,7 +3204,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "deltaObject.maxpat",
-				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
+				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
