@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 810.0 ],
+		"rect" : [ 1280.0, 44.0, 1920.0, 1110.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-83",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 7,
-					"outlettype" : [ "list", "float", "float", "float", "list", "bang", "list" ],
-					"patching_rect" : [ 1421.0, 439.0, 63.0, 20.0 ],
-					"text" : "analyzer~"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -107,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.338013, 647.35199, 50.0, 18.0 ],
-					"text" : "1"
+					"text" : "3"
 				}
 
 			}
@@ -148,8 +134,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 857.0, 559.414978, 99.0, 20.0 ],
-					"text" : "scale 0. 25. 0. 1."
+					"patching_rect" : [ 857.0, 559.414978, 92.0, 20.0 ],
+					"text" : "scale 0. 8. 0. 1."
 				}
 
 			}
@@ -349,7 +335,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 980.0, 505.0, 65.0, 20.0 ],
-					"text" : "metro 333"
+					"text" : "metro 250"
 				}
 
 			}
@@ -363,7 +349,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
 					"patching_rect" : [ 980.0, 537.0, 73.0, 20.0 ],
-					"text" : "counter 0 3"
+					"text" : "counter 2 3"
 				}
 
 			}
@@ -974,8 +960,8 @@
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 7,
-					"outlettype" : [ "list", "float", "float", "float", "list", "bang", "list" ],
+					"numoutlets" : 9,
+					"outlettype" : [ "list", "float", "float", "float", "list", "bang", "list", "list", "FullPacket" ],
 					"patching_rect" : [ 1084.75, 532.35199, 391.5, 27.0 ],
 					"text" : "analyzer~ @buffersize 2048 @hopsize 512 @fftsize 4096 @windowtype blackman70 @initialdelay 0 @numpitches 1 @numpeakstofind 10 @numpeakstooutput 10 @barkformat list"
 				}
@@ -3208,7 +3194,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "deltaObject.maxpat",
-				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
