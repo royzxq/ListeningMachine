@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 269.0, 194.0, 640.0, 480.0 ],
+		"rect" : [ 0.0, 44.0, 1436.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 309.0, 150.0, 20.0 ],
+					"patching_rect" : [ 581.0, 388.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 343.5, 218.0, 52.0, 20.0 ],
 					"text" : "space"
@@ -52,7 +52,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 294.0, 150.0, 20.0 ],
+					"patching_rect" : [ 633.0, 368.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 238.5, 218.0, 52.0, 20.0 ],
 					"text" : "rain"
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 279.0, 150.0, 20.0 ],
+					"patching_rect" : [ 605.0, 329.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 128.5, 218.0, 52.0, 20.0 ],
 					"text" : "jungle"
@@ -84,7 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 264.0, 150.0, 33.0 ],
+					"patching_rect" : [ 528.0, 309.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 18.5, 218.0, 52.0, 20.0 ],
 					"text" : "normal\n"
@@ -124,7 +124,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 26.0, 247.0, 29.0, 29.0 ],
+					"patching_rect" : [ 26.0, 172.0, 29.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 17.0, 29.0, 29.0 ]
 				}
@@ -166,7 +166,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 351.0, 247.0, 29.0, 29.0 ],
+					"patching_rect" : [ 351.0, 172.0, 29.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 355.0, 17.0, 29.0, 29.0 ]
 				}
@@ -208,7 +208,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 246.0, 247.0, 29.0, 29.0 ],
+					"patching_rect" : [ 246.0, 172.0, 29.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 250.0, 17.0, 29.0, 29.0 ]
 				}
@@ -223,8 +223,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 246.0, 284.0, 63.0, 20.0 ],
-					"text" : "play~ rain"
+					"patching_rect" : [ 246.0, 284.0, 111.0, 20.0 ],
+					"text" : "play~ rain @loop 1"
 				}
 
 			}
@@ -332,7 +332,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 136.0, 247.0, 29.0, 29.0 ],
+					"patching_rect" : [ 136.0, 172.0, 29.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 140.0, 17.0, 29.0, 29.0 ]
 				}
@@ -665,7 +665,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sfolder.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
