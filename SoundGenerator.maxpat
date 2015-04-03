@@ -8,11 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-<<<<<<< HEAD
-		"rect" : [ 546.0, 147.0, 697.0, 642.0 ],
-=======
-		"rect" : [ 1280.0, 44.0, 1599.0, 1110.0 ],
->>>>>>> Xinquan
+		"rect" : [ 0.0, 45.0, 1280.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -33,6 +29,18 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-3",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 299.0, 37.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -41,15 +49,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-<<<<<<< HEAD
-					"patching_rect" : [ -0.5, 0.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -0.5, 0.0, 150.0, 20.0 ]
-=======
 					"patching_rect" : [ -0.5, 2.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.5, 2.0, 150.0, 20.0 ]
->>>>>>> Xinquan
 				}
 
 			}
@@ -126,7 +128,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 324.0, 390.0, 25.0, 25.0 ]
+					"patching_rect" : [ 349.0, 37.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -312,11 +314,7 @@
 			}
 , 			{
 				"box" : 				{
-<<<<<<< HEAD
-					"hint" : "x 4 y 11",
-=======
-					"hint" : "x 4 y 0",
->>>>>>> Xinquan
+					"hint" : "x 4 y 6",
 					"id" : "obj-40",
 					"maxclass" : "itable",
 					"name" : "",
@@ -327,11 +325,7 @@
 					"patching_rect" : [ 374.0, 152.0, 81.0, 74.0 ],
 					"range" : 12,
 					"size" : 5,
-<<<<<<< HEAD
-					"table_data" : [ 0, 0, 3, 5, 7, 10 ]
-=======
-					"table_data" : [ 0, 0, 4, 8, 9, 5 ]
->>>>>>> Xinquan
+					"table_data" : [ 0, 5, 9, 4, 1, 11 ]
 				}
 
 			}
@@ -829,6 +823,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
