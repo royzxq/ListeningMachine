@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1280.0, 96.0, 1599.0, 1058.0 ],
+		"rect" : [ 0.0, 44.0, 1436.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,6 +31,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+<<<<<<< HEAD
 					"id" : "obj-47",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -46,11 +47,18 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-38",
+=======
+					"id" : "obj-16",
+>>>>>>> fce21e20ac9d20a10c8a10cfafaa834514788b25
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 484.75, 533.0, 50.0, 18.0 ],
+=======
+					"patching_rect" : [ 447.0, 535.0, 50.0, 18.0 ],
+>>>>>>> fce21e20ac9d20a10c8a10cfafaa834514788b25
 					"text" : "2"
 				}
 
@@ -59,6 +67,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+<<<<<<< HEAD
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -142,13 +151,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+=======
+>>>>>>> fce21e20ac9d20a10c8a10cfafaa834514788b25
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 465.5, 791.0, 106.0, 20.0 ],
 					"text" : "if $i1 != 0 then $i1"
+=======
+					"patching_rect" : [ 478.0, 496.0, 145.0, 20.0 ],
+					"text" : "if $i1 == 0 then 1 else $i1"
+>>>>>>> fce21e20ac9d20a10c8a10cfafaa834514788b25
 				}
 
 			}
@@ -332,7 +348,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
+<<<<<<< HEAD
 					"patching_rect" : [ 493.5, 477.0, 50.0, 20.0 ]
+=======
+					"patching_rect" : [ 493.5, 458.0, 50.0, 20.0 ]
+>>>>>>> fce21e20ac9d20a10c8a10cfafaa834514788b25
 				}
 
 			}
@@ -1335,7 +1355,11 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 500.0, 157.0, 182.0, 18.0 ],
+<<<<<<< HEAD
 					"text" : "0.002167 0.01413 -1.006134"
+=======
+					"text" : "0.027786 -0.001694 -1.004333"
+>>>>>>> fce21e20ac9d20a10c8a10cfafaa834514788b25
 				}
 
 			}
@@ -1748,6 +1772,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1758,6 +1783,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
+=======
+					"destination" : [ "obj-9", 0 ],
+>>>>>>> fce21e20ac9d20a10c8a10cfafaa834514788b25
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-239", 0 ]
@@ -2222,7 +2250,20 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-174", 0 ],
+=======
+					"destination" : [ "obj-16", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-206", 1 ],
+>>>>>>> fce21e20ac9d20a10c8a10cfafaa834514788b25
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
@@ -2232,14 +2273,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "calEnergy.maxpat",
-				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deltaObject.maxpat",
-				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
