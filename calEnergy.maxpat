@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 307.25, 450.0, 35.0, 20.0 ],
-					"text" : "* 0.3"
+					"text" : "* 0.6"
 				}
 
 			}
@@ -327,7 +327,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 307.25, 382.0, 142.0, 20.0 ],
-					"text" : "if $f1 > 5. then $f1 else 0"
+					"text" : "if $f1 > 6. then $f1 else 0"
 				}
 
 			}
