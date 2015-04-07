@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 45.0, 955.0, 710.0 ],
+		"rect" : [ -1280.0, 44.0, 1280.0, 630.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -288,14 +288,16 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-76",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.25, 770.0, 50.0, 18.0 ],
+					"patching_rect" : [ 288.25, 770.0, 50.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.8125, 96.0, 50.0, 18.0 ],
-					"text" : "-0.2"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 160.8125, 96.0, 50.0, 31.0 ],
+					"text" : "-0.090909"
 				}
 
 			}
@@ -392,8 +394,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.0, 463.0, 132.0, 20.0 ],
-					"text" : "scale 1000. 6000. 0. 1."
+					"patching_rect" : [ 221.0, 463.0, 139.0, 20.0 ],
+					"text" : "scale 1000. 12000. 0. 1."
 				}
 
 			}
