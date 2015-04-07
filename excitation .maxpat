@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 484.75, 533.0, 50.0, 18.0 ],
-					"text" : "2"
+					"text" : "3"
 				}
 
 			}
@@ -415,7 +415,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 769.75, 564.0, 32.5, 18.0 ],
-					"text" : "1 -3"
+					"text" : "2 -6"
 				}
 
 			}
@@ -428,8 +428,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 811.25, 564.0, 32.5, 18.0 ],
-					"text" : "1 5"
+					"patching_rect" : [ 811.25, 564.0, 34.0, 18.0 ],
+					"text" : "2 10"
 				}
 
 			}
@@ -443,7 +443,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 854.75, 564.0, 32.5, 18.0 ],
-					"text" : "3 1"
+					"text" : "6 2"
 				}
 
 			}
@@ -471,7 +471,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 753.5, 477.0, 65.0, 20.0 ],
-					"text" : "metro 500"
+					"text" : "metro 200"
 				}
 
 			}
@@ -485,7 +485,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 493.5, 564.0, 50.0, 18.0 ],
-					"text" : "2"
+					"text" : "3"
 				}
 
 			}
@@ -1335,7 +1335,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 500.0, 157.0, 182.0, 18.0 ],
-					"text" : "0.013855 0.009598 -1.010788"
+					"text" : "-0.98732 0.004135 -0.141388"
 				}
 
 			}
@@ -2232,14 +2232,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "calEnergy.maxpat",
-				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deltaObject.maxpat",
-				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
