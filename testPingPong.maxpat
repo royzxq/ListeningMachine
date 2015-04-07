@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 108.0, 45.0, 968.0, 705.0 ],
+		"rect" : [ 108.0, 71.0, 968.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-71",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1261.0, 662.0, 60.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "bgm" ],
 					"id" : "obj-161",
@@ -1382,18 +1396,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-83",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1266.0, 664.5, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-154",
@@ -1668,7 +1670,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.869995, 1216.0, 64.0, 18.0 ],
-					"text" : "-0.001133"
+					"text" : "-0.437747"
 				}
 
 			}
@@ -1709,7 +1711,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 854.75, 648.0, 186.5, 18.0 ],
-					"text" : "-0.008727 -4.7 0."
+					"text" : "-3.370646 -4.7 0."
 				}
 
 			}
@@ -2134,7 +2136,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1449.5, 557.25, 50.0, 18.0 ],
-					"text" : "83"
+					"text" : "1"
 				}
 
 			}
@@ -2162,7 +2164,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1355.5, 557.25, 50.0, 18.0 ],
-					"text" : "70"
+					"text" : "26"
 				}
 
 			}
@@ -4031,6 +4033,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-79", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4190,15 +4201,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-81", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-79", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -4417,105 +4419,105 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "collisionRecogObject.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deltaObject.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yingshu_patch.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sound_duplicate.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delayline~.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rev3~.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loadsound.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sfolder.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "excitation .maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "calEnergy.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cursorPositionHoldObj.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cwMLObj.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delayObject.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lowpassObject.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bgmObj.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
