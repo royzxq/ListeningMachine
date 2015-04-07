@@ -235,8 +235,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 556.0, 541.0, 68.0, 20.0 ],
-					"text" : "random 50"
+					"patching_rect" : [ 556.0, 541.0, 75.0, 20.0 ],
+					"text" : "random 500"
 				}
 
 			}
