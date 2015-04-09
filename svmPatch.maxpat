@@ -29,6 +29,44 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-69",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 505.0, 243.0, 25.0, 25.0 ],
+					"presentation_rect" : [ 520.0, 263.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-66",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 449.0, 221.0, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 207.0, 731.0, 47.0, 20.0 ],
+					"text" : "s class"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -37,7 +75,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 14.0, 150.0, 20.0 ],
+					"patching_rect" : [ 0.0, 2.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 14.0, 150.0, 20.0 ],
 					"text" : "svm"
@@ -81,7 +119,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -296,7 +333,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 159.0, 319.0, 211.0, 18.0 ],
-									"text" : "map 0.015625 0.009964 -0.996506"
+									"text" : "map 0.010666 0.021103 -1.010498"
 								}
 
 							}
@@ -403,7 +440,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 123.0, 418.0, 50.0, 98.0 ],
-													"text" : "add 3 -0.865494 -0.22998 -0.065781"
+													"text" : "add 3 -0.029327 -0.024277 0.897705"
 												}
 
 											}
@@ -727,7 +764,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 367.0, 152.0, 228.0, 18.0 ],
-									"text" : "/accxyz 0.015625 0.009964 -0.996506"
+									"text" : "/accxyz 0.010666 0.021103 -1.010498"
 								}
 
 							}
@@ -873,7 +910,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 509.0, 373.0, 40.0, 20.0 ],
+					"patching_rect" : [ 474.0, 346.0, 40.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -888,17 +925,6 @@
 					}
 ,
 					"text" : "p test"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-16",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 785.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -1590,8 +1616,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 98.0, 75.0, 18.0 ],
-					"text" : "/tmp/svm.txt"
+					"patching_rect" : [ 197.0, 70.0, 458.0, 18.0 ],
+					"text" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine/svmModel/svm.txt"
 				}
 
 			}
@@ -1915,7 +1941,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-24", 0 ]
@@ -2203,6 +2229,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2216,6 +2251,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-69", 0 ]
 				}
 
 			}
