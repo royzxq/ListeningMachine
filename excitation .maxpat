@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1280.0, 96.0, 1599.0, 1058.0 ],
+		"rect" : [ 4.0, 45.0, 1276.0, 709.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -93,7 +93,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 277.0, 598.0, 63.0, 20.0 ],
+<<<<<<< HEAD
 					"text" : "zl group 3"
+=======
+					"text" : "zl group 4"
+>>>>>>> master
 				}
 
 			}
@@ -105,7 +109,11 @@
 					"name" : "deltaObject.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+<<<<<<< HEAD
 					"outlettype" : [ "int" ],
+=======
+					"outlettype" : [ "float" ],
+>>>>>>> master
 					"patching_rect" : [ 277.0, 540.0, 108.0, 42.0 ]
 				}
 
@@ -242,8 +250,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 896.0, 495.0, 58.0, 20.0 ],
-					"text" : "metro 50"
+					"patching_rect" : [ 896.0, 495.0, 65.0, 20.0 ],
+					"text" : "metro 100"
 				}
 
 			}
@@ -1335,7 +1343,11 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 500.0, 157.0, 182.0, 18.0 ],
+<<<<<<< HEAD
 					"text" : "0.002167 0.01413 -1.006134"
+=======
+					"text" : "0.013855 0.009598 -1.010788"
+>>>>>>> master
 				}
 
 			}
