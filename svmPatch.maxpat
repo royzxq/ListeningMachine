@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 178.0, 45.0, 955.0, 709.0 ],
+		"rect" : [ 1662.0, 79.0, 1099.0, 898.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -175,7 +175,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 606.0, 246.0, 640.0, 480.0 ],
+						"rect" : [ 2006.0, 423.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -408,7 +408,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 159.0, 319.0, 211.0, 18.0 ],
-									"text" : "map 0.014832 0.01709 -1.004303"
+									"text" : "map -0.000244 0.012222 -1.00592"
 								}
 
 							}
@@ -515,7 +515,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 123.0, 418.0, 50.0, 98.0 ],
-													"text" : "add 3 -0.029327 -0.024277 0.897705"
+													"text" : "add 3 -0.11351 1.468674 0.172913"
 												}
 
 											}
@@ -839,7 +839,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 367.0, 152.0, 228.0, 18.0 ],
-									"text" : "/accxyz 0.014832 0.01709 -1.004303"
+									"text" : "/accxyz -0.000244 0.012222 -1.00592"
 								}
 
 							}
@@ -1691,8 +1691,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 70.0, 393.0, 18.0 ],
-					"text" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachin/svm.txt"
+					"patching_rect" : [ 197.0, 70.0, 400.0, 18.0 ],
+					"text" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachin/svm1.txt"
 				}
 
 			}
