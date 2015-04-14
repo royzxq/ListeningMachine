@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 178.0, 45.0, 955.0, 709.0 ],
+		"rect" : [ 0.0, 44.0, 1436.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -80,7 +80,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 407.0, 547.0, 202.0, 45.0 ],
-					"text" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine/svm.txt"
+					"text" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine/svm.txt"
 				}
 
 			}
@@ -89,13 +89,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-61",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.0, 403.0, 396.0, 45.0 ],
-					"text" : "\"Macintosh HD:/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine/svm.txt\""
+					"patching_rect" : [ 311.0, 403.0, 396.0, 31.0 ],
+					"text" : "\"Macintosh HD:/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine/svm.txt\""
 				}
 
 			}
@@ -175,7 +175,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 606.0, 246.0, 640.0, 480.0 ],
+						"rect" : [ 499.0, 149.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -194,21 +194,8 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-28",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 231.0, 473.0, 50.0, 20.0 ]
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 									"fontname" : "Arial",
@@ -408,7 +395,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 159.0, 319.0, 211.0, 18.0 ],
-									"text" : "map 0.014832 0.01709 -1.004303"
+									"text" : "map -0.510803 -0.162796 -0.831207"
 								}
 
 							}
@@ -839,7 +826,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 367.0, 152.0, 228.0, 18.0 ],
-									"text" : "/accxyz 0.014832 0.01709 -1.004303"
+									"text" : "/accxyz -0.510803 -0.162796 -0.831207"
 								}
 
 							}
@@ -940,15 +927,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-35", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-28", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-35", 0 ]
@@ -1926,15 +1904,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2241,15 +2210,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2467,7 +2427,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sfolder.maxpat",
-				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
