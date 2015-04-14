@@ -2073,7 +2073,7 @@
 					"name" : "excitation .maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 7,
-					"outlettype" : [ "", "int", "int", "bang", "int", "float", "bang" ],
+					"outlettype" : [ "", "int", "int", "", "int", "float", "bang" ],
 					"patching_rect" : [ 1128.0, 694.5, 152.0, 21.0 ]
 				}
 
@@ -2741,7 +2741,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1361.75, 762.0, 66.0, 20.0 ],
+					"patching_rect" : [ 1326.75, 767.5, 66.0, 20.0 ],
 					"text" : "pack 0 0 0"
 				}
 
