@@ -422,7 +422,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 159.0, 319.0, 211.0, 18.0 ],
-									"text" : "map 0.036652 0.021194 -1.009293"
+									"text" : "map -0.013992 0.012421 -1.007004"
 								}
 
 							}
@@ -508,6 +508,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-24",
+													"int" : 1,
 													"maxclass" : "gswitch2",
 													"numinlets" : 2,
 													"numoutlets" : 2,
@@ -852,7 +853,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 367.0, 152.0, 228.0, 18.0 ],
-									"text" : "/accxyz 0.036163 0.018723 -1.003143"
+									"text" : "/accxyz -0.013992 0.012421 -1.007004"
 								}
 
 							}
