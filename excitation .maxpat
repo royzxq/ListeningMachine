@@ -87,8 +87,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 735.0, 95.0, 127.0, 20.0 ],
-					"text" : "OSC-route /1/push5/z"
+					"patching_rect" : [ 735.0, 95.0, 99.0, 20.0 ],
+					"text" : "OSC-route /1/*/z"
 				}
 
 			}
@@ -293,7 +293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 838.0, 37.0, 99.0, 20.0 ],
+					"patching_rect" : [ 990.0, 11.5, 99.0, 20.0 ],
 					"text" : "udpreceive 8000"
 				}
 
@@ -753,7 +753,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1082.0, 124.5, 69.0, 20.0 ],
+					"patching_rect" : [ 1336.5, 39.0, 69.0, 20.0 ],
 					"text" : "r receiveall"
 				}
 
@@ -1302,7 +1302,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 500.0, 157.0, 182.0, 18.0 ],
-					"text" : "0.015305 0.020035 -1.008316"
+					"text" : "-0.158798 -0.596542 -0.828979"
 				}
 
 			}
@@ -1874,6 +1874,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-206", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1911,6 +1920,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
