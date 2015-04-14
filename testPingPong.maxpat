@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 534.0, 1382.0, 50.0, 18.0 ],
-					"text" : "0"
+					"text" : "12"
 				}
 
 			}
@@ -2082,7 +2082,7 @@
 					"name" : "excitation .maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 7,
-					"outlettype" : [ "", "int", "int", "", "int", "float", "bang" ],
+					"outlettype" : [ "", "int", "int", "", "int", "float", "int" ],
 					"patching_rect" : [ 1128.0, 694.5, 152.0, 21.0 ]
 				}
 
@@ -2159,7 +2159,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.869995, 1216.0, 64.0, 18.0 ],
-					"text" : "-0.830165"
+					"text" : "0.448358"
 				}
 
 			}
@@ -2173,7 +2173,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 92.0, 1198.0, 50.0, 18.0 ],
-					"text" : "wall 3"
+					"text" : "wall 1"
 				}
 
 			}
@@ -2200,7 +2200,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 854.75, 648.0, 186.5, 18.0 ],
-					"text" : "-6.39227 -4.7 0."
+					"text" : "3.45236 4.7 0."
 				}
 
 			}
@@ -5087,6 +5087,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-212", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-79", 6 ]
 				}
 
 			}
