@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 245.0, 44.0, 978.0, 738.0 ],
+		"rect" : [ 355.0, 44.0, 1136.0, 738.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -205,7 +205,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 456.0, 482.0, 169.0, 20.0 ],
-					"text" : "if $f1 < 0.001 then 0 else $f1"
+					"text" : "if $f1 < 0.0001 then 0 else $f1"
 				}
 
 			}
