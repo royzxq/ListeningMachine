@@ -1,0 +1,73 @@
+// MUSI 6004 Technology Ensemble
+// RPG - created by Chih-Wei Wu, Ying-Shu Kuo, Xinquan Zhou
+// Piece Instruction 
+
+//============Part-1: Water 0-60 second
+- Musician: 
+30 sec into the piece, keep a regular beat 
+
+- Player: 
+improvise at the beginning
+hit the ball at different directions with different velocity. 
+Once the musician initiates a beat, play regular pattern:
+D D x x L L x x 
+D x L x D x L x
+D x U x D x L x
+
+- Technician note:
+Delay & reverb for all: mid
+Delay for musician: none 
+
+//============Part-2: Jungle 61-120 second
+- Musician:
+start with conversation with Machine Listener 
+play a fast jungle beat
+stop for the player to fill in.
+
+- Player: 
+play regular pattern:
+L x U x L x U x 
+
+use “trivial” sounds most of the time. 
+When the musician stops, play “important” sounds. 
+
+- Technician note: 
+Delay & reverb for all: low
+Delay for musician: mid-high (dense texture). 
+
+
+//============Part-3: Rain 121~180 second
+- Musician:
+sparse tinkling sounds
+rise and fall with the wind sound
+
+- Player:
+charge and release
+try to synchronize with musician
+
+- Technician note: 
+Delay & reverb for all: mid
+Delay for musician: low
+
+//============Part-4: Space 181~250 second
+- Musician:
+starts with low volume drum roll
+when radio comes in, play irregular beat by hitting the rim
+when siren comes in, play fast syncopation 
+Towards the end, intense (4 4 4 4 6) 
+
+- Player:
+start with charging sounds
+when radio comes in, play regular pattern
+D x D x L x x x repeat
+
+when siren comes in, mix all together
+improvise
+Towards the end, charge a long note and release when everyone stops
+
+- Technician note: 
+Delay & reverb for all: high
+Delay for musician: high.
+
+
+
