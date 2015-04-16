@@ -51,7 +51,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 142.0, 129.0, 135.0, 20.0 ],
-					"presentation_rect" : [ 404.0, 272.0, 0.0, 0.0 ],
 					"text" : "conformpath slash boot"
 				}
 
@@ -135,7 +134,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 407.0, 547.0, 202.0, 45.0 ],
-					"text" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine/svm.txt"
+					"text" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine/svm.txt"
 				}
 
 			}
@@ -144,13 +143,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-61",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.0, 403.0, 396.0, 45.0 ],
-					"text" : "\"Macintosh HD:/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine/svm.txt\""
+					"patching_rect" : [ 311.0, 403.0, 396.0, 31.0 ],
+					"text" : "\"Macintosh HD:/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine/svm.txt\""
 				}
 
 			}
@@ -461,7 +460,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 159.0, 319.0, 211.0, 18.0 ],
-									"text" : "map 0.016953 0.013199 -1.009308"
+									"text" : "map 0.016907 0.003326 -1.003876"
 								}
 
 							}
@@ -892,7 +891,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 367.0, 152.0, 228.0, 18.0 ],
-									"text" : "/accxyz 0.016953 0.013199 -1.009308"
+									"text" : "/accxyz 0.016907 0.003326 -1.003876"
 								}
 
 							}
@@ -2294,24 +2293,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2556,7 +2537,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sfolder.maxpat",
-				"bootpath" : "/Users/xinquanzhou/Workspace/TechEnsemble/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

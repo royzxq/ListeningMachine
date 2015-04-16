@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 65.0, 150.0, 33.0 ],
+					"patching_rect" : [ 165.0, 65.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.8125, 64.0, 80.0, 20.0 ],
 					"text" : "turn on ML\n"
@@ -307,7 +307,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 353.0, 1067.0, 50.0, 20.0 ]
+					"patching_rect" : [ 353.0, 1067.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 160.8125, 96.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -349,7 +351,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 407.5, 983.0, 35.0, 20.0 ],
-					"text" : "* 0.5"
+					"text" : "* 0.7"
 				}
 
 			}
@@ -363,7 +365,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 206.0, 852.0, 42.0, 20.0 ],
-					"text" : "* 0.25"
+					"text" : "* 0.15"
 				}
 
 			}
@@ -377,7 +379,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 330.0, 852.0, 42.0, 20.0 ],
-					"text" : "* 0.25"
+					"text" : "* 0.15"
 				}
 
 			}
@@ -812,16 +814,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-76",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.25, 770.0, 50.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 160.8125, 96.0, 50.0, 31.0 ],
-					"text" : "0.152835"
+					"patching_rect" : [ 288.25, 770.0, 50.0, 18.0 ],
+					"text" : "-0.2"
 				}
 
 			}
@@ -830,16 +828,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-74",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.25, 770.0, 50.0, 31.0 ],
+					"patching_rect" : [ 176.25, 770.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 77.0, 96.0, 50.0, 31.0 ],
-					"text" : "0.530205"
+					"presentation_rect" : [ 77.0, 96.0, 50.0, 18.0 ],
+					"text" : "0."
 				}
 
 			}
@@ -2634,7 +2630,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "deltaObject.maxpat",
-				"bootpath" : "/Users/mac/Desktop/GTCMT/ListeningMachine",
+				"bootpath" : "/Users/yskuo/OneDrive/02. Georgia Tech/2015Spring/Technology Ensemble/ListeningMachine",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
