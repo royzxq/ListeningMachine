@@ -478,7 +478,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 307.25, 382.0, 142.0, 20.0 ],
-					"text" : "if $f1 > 7. then $f1 else 0"
+					"text" : "if $f1 > 6. then $f1 else 0"
 				}
 
 			}
