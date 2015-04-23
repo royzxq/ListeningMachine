@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 40.0, 44.0, 1329.0, 705.0 ],
+		"rect" : [ 42.0, 49.0, 1329.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -17,7 +17,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
+		"statusbarvisible" : 1,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -689,7 +689,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 281.0, 1351.0, 50.0, 18.0 ],
-					"text" : "2"
+					"text" : "3"
 				}
 
 			}
@@ -895,7 +895,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 319.0, 1327.0, 50.0, 31.0 ],
-					"text" : "0.029612"
+					"text" : "0.52569"
 				}
 
 			}
@@ -2829,7 +2829,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.869995, 1216.0, 64.0, 18.0 ],
-					"text" : "-0.883337"
+					"text" : "0.866321"
 				}
 
 			}
@@ -2843,7 +2843,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 92.0, 1198.0, 50.0, 18.0 ],
-					"text" : "wall 1"
+					"text" : "wall 3"
 				}
 
 			}
@@ -2870,7 +2870,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 854.75, 648.0, 186.5, 18.0 ],
-					"text" : "-6.801693 4.7 0."
+					"text" : "6.670671 -4.7 0."
 				}
 
 			}
@@ -3284,8 +3284,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 60.0, 407.0, 119.0, 20.0 ],
-					"text" : "jit.window ping-pong"
+					"patching_rect" : [ 63.0, 407.0, 201.0, 20.0 ],
+					"text" : "jit.window ping-pong @fsmenubar 0"
 				}
 
 			}
@@ -3299,7 +3299,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1449.5, 557.25, 50.0, 18.0 ],
-					"text" : "77"
+					"text" : "72"
 				}
 
 			}
@@ -3327,7 +3327,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1355.5, 557.25, 50.0, 18.0 ],
-					"text" : "9"
+					"text" : "11"
 				}
 
 			}
